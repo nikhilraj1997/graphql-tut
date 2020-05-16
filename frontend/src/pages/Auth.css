@@ -1,0 +1,17 @@
+.auth-form {
+  width: 60rem;
+  max-width: 90%;
+  margin: 10rem auto;
+}
+
+@media (max-width: 768px) {
+  .form-actions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-actions button {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}

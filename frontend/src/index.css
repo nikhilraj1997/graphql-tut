@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  color: #212121;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+audio,
+video {
+  display: inline-block;
+}
+
+img {
+  border-style: none;
+}
+
+.form-control {
+  margin-bottom: 2rem;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+  width: 100%;
+  display: block;
+}
+
+.form-control label {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.form-control input,
+.form-control textarea {
+  border: 1px solid #512da8;
+  border-radius: 3px;
+  font-size: 1.6rem;
+  padding: 8px;
+}
+
+.form-control input:hover,
+.form-control input:active,
+.form-control textarea:hover,
+.form-control textarea:active {
+  border: 1px solid #311b92;
+}
+
+.form-actions button,
+.btn {
+  background: #512da8;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  padding: 0.8rem 2rem;
+  margin-right: 1rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-actions button:hover,
+.form-actions button:active,
+.btn:hover,
+.btn:active {
+  background: #311b92;
+}
